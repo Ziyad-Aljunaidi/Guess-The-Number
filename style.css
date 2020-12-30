@@ -1,0 +1,62 @@
+h1{
+    color: white !important;
+    text-align: center;
+}
+
+.title_guess{
+    background-color: rgb(129, 58, 129) !important;
+    height: 50px;
+}
+
+.intro_guess{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.game_guess{
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    height: 500px;
+    background-color:darkcyan;
+}
+
+.game_guess h1{
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.input_guess{
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    border-color: rgb(1, 87, 87);
+    border-style: solid;
+}
+
+.submit_guess{
+    cursor: pointer;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 0px;
+    width: 400px !important;
+    height: 50px;
+    background-color:yellow;
+}
+
+.submit_guess span{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#color_hover:hover{
+    background-color: rgb(216, 216, 0) ;
+}
+
+.guess_guess{
+    color: white;
+    padding-top: 15px;
+}
