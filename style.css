@@ -19,7 +19,7 @@ h1{
     justify-content: center;
     margin: 0 auto;
     text-align: center;
-    height: 500px;
+    height: 600px;
     background-color:darkcyan;
 }
 
@@ -28,7 +28,7 @@ h1{
     padding-top: 20px;
 }
 
-.input_guess{
+.guessField{
     width: 500px;
     height: 200px;
     text-align: center;
@@ -36,7 +36,7 @@ h1{
     border-style: solid;
 }
 
-.submit_guess{
+.guessSubmit{
     cursor: pointer;
     justify-content: center;
     margin: 0 auto;
@@ -47,7 +47,7 @@ h1{
     background-color:yellow;
 }
 
-.submit_guess span{
+.guessSubmit span{
     font-size: 32px;
     font-weight: bold;
 }
@@ -59,4 +59,9 @@ h1{
 .guess_guess{
     color: white;
     padding-top: 15px;
+}
+
+.resultParas{
+    color: white;
+    font-size: 18px;
 }
