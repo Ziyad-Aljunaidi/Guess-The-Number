@@ -45,6 +45,7 @@ h1{
     width: 400px !important;
     height: 50px;
     background-color:yellow;
+    font-size: 20px;
 }
 
 .guessSubmit span{

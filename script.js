@@ -36,17 +36,17 @@ guessSubmit.addEventListener('click', checkGuess);
 function setGameOver() {
     guessField.disabled = true;
     guessSubmit.disabled = true;
-    resetButton = document.createElement('button');
-    resetButton.textContent = 'Start new game';
-    document.body.append(resetButton);
-    resetButton.addEventListener('click', resetGame);
+    //resetButton = document.createElement('button');
+    //resetButton.textContent = 'Start new game';
+    //document.body.append(resetButton);
+    //resetButton.addEventListener('click', resetGame);
   }
 
 function checkGuess() {
     numGuessRemain = 10 - guessCount;
     let userGuess = Number(guessField.value);
     if (guessCount === 1) {
-      guesses.textContent = 'Previous guesses: ';
+      guesses.textContent = 'Previous Guesses: ';
     }
     guesses.textContent += userGuess + ' ';
   
